@@ -18,7 +18,7 @@ def play_audio(f, chunk = 1024):
     while data:  
         stream.write(data)  
         data = f.readframes(chunk)  
-
+        
     #stop stream  
     stream.stop_stream()  
     stream.close()  

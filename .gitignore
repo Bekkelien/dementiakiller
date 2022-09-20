@@ -1,7 +1,10 @@
-# Gitignore
+##### Gitignore #####
 
+# Stuff
+__pycache__/
+
+# Folders
 venv/
-
 data/
 
 # Files
