@@ -1,4 +1,11 @@
 import pyaudio  
+import pandas as pd
+
+
+def extract_metadata():
+    df_metadata = pd.read_csv('data/LJSpeech-1.1/metadata.csv', delimiter = '|', header=None)
+    df_metadata.columns = [str(x).replace(str(x),str(x)) for x in ['filenames','text','text2']]
+    return df_metadata
 
 def play_audio(f, chunk = 1024):
     """ Input a f from wave.open(file.wav,"rb")  """
