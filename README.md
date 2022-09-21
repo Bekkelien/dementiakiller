@@ -8,3 +8,4 @@ DIP's - Dementiakiller Improvement Proposal
 - [ ] Do we need to sync data and text?
 - [ ] Map letters to numbers?, character mapping ?
 - [ ] Padding is just zeros which is a bad idea fix this NOW
+- [ ] Rename charset to text_encodings within the data frame
