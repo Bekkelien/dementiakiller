@@ -8,6 +8,8 @@ Approximate 10s Sequence length for speech ATM.
 | To simple network, need Conv's and stuff? 
 | BUG's?
 
+- Padding is now 0 everywhere
+
 To be trained on LJSpeech-1.1 dataset:
 [LJSpeech]: https://keithito.com/LJ-Speech-Dataset/
 
