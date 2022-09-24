@@ -3,12 +3,12 @@
 Approximate 10s Sequence length for speech ATM.
 
 
-| It learns something?
-| Bad Prepossess?
-| To simple network, need Conv's and stuff? 
-| BUG's?
-
-- Padding is now 0 everywhere
+- | It learns something?
+- | Bad Prepossess?
+- | To simple network, need Conv's and stuff? 
+- | BUG's?
+- | All data are in the test data (No validation so test data are from train data for now, which really it shouldn't)
+- | Padding is now 0 everywhere
 
 To be trained on LJSpeech-1.1 dataset:
 [LJSpeech]: https://keithito.com/LJ-Speech-Dataset/
