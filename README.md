@@ -9,6 +9,7 @@ Approximate 10s Sequence length for speech ATM.
 - | BUG's?
 - | All data are in the test data (No validation so test data are from train data for now, which really it shouldn't)
 - | Padding is now 0 everywhere
+- | Try to understand mapping and mels to make sure mappings are in a good state
 
 To be trained on LJSpeech-1.1 dataset:
 [LJSpeech]: https://keithito.com/LJ-Speech-Dataset/
